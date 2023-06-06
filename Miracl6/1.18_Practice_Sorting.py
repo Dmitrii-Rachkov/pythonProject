@@ -141,6 +141,11 @@ def iterativeFib(n):
 el = iterativeFib(10)
 print(el)
 
+# Строка в обратном порядке
+idn = "Hello mister pipa"
+res = sorted(idn.split(), reverse=True)
+otvet = " ".join(res)
+print(otvet)
 
 
 
